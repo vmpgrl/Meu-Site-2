@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Terrário</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="topo">
+
+<div class="menu-btn" onclick="abrirMenu()">☰</div>
+
+<h1 class="logo">TERRARIO</h1>
+
+<div class="email-btn">
+<a href="mailto:cvb.rodrigues@discente.ufma.br">✉</a>
+</div>
+
+</header>
+
+<nav id="menu-lateral" class="menu-lateral">
+
+<a href="#">Início</a>
+<a href="#">Quem Somos</a>
+<a href="#">Fale Conosco</a>
+
+</nav>
+
+<main class="conteudo">
+
+<section class="area-principal">
+
+<div class="bloco">
+
+<h2>SEÇÕES</h2>
+
+<div class="lista">
+
+<a href="#">Brasil</a>
+<a href="#">Música</a>
+<a href="#">Cinema</a>
+<a href="#">Política</a>
+<a href="#">Esportes</a>
+
+</div>
+
+</div>
+
+<div class="bloco">
+
+<h2>COLABORAÇÕES</h2>
+
+<p>Artigos escritos pelos leitores do site.</p>
+
+</div>
+
+<div class="bloco">
+
+<h2>TEXTO DA SEMANA</h2>
+
+<p>Textos autorais de Naomi Rodrigues.</p>
+
+</div>
+
+</section>
+
+<aside class="perfil">
+
+<img src="foto.jpg">
+
+<h3>NAOMI RODRIGUES</h3>
+
+<p>
+
+Graduanda em Jornalismo pela Universidade Federal do Maranhão, com experiência em comunicação institucional, produção jornalística e audiovisual voltada à divulgação acadêmica e científica.
+
+</p>
+
+</aside>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
