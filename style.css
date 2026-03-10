@@ -1,0 +1,96 @@
+body{
+margin:0;
+font-family:Arial;
+background:#eaeaea;
+}
+
+.topo{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 30px;
+background:linear-gradient(90deg,#7a6af0,#6fd1a9);
+color:white;
+}
+
+.logo{
+letter-spacing:10px;
+}
+
+.menu-btn{
+font-size:24px;
+cursor:pointer;
+}
+
+.email-btn a{
+font-size:22px;
+text-decoration:none;
+color:white;
+}
+
+.menu-lateral{
+position:fixed;
+left:-200px;
+top:0;
+width:200px;
+height:100%;
+background:white;
+padding-top:100px;
+transition:0.3s;
+}
+
+.menu-lateral a{
+display:block;
+padding:15px;
+text-decoration:none;
+color:#333;
+}
+
+.conteudo{
+display:flex;
+padding:40px;
+}
+
+.area-principal{
+flex:3;
+display:flex;
+justify-content:space-around;
+}
+
+.bloco{
+text-align:center;
+}
+
+.bloco h2{
+color:#6a5acd;
+}
+
+.lista a{
+display:block;
+margin:5px;
+text-decoration:none;
+color:#333;
+}
+
+.perfil{
+flex:1;
+background:white;
+padding:20px;
+text-align:center;
+border-left:2px solid #5ca89c;
+}
+
+.perfil img{
+width:120px;
+border-radius:50%;
+}
+
+.perfil h3{
+color:#6a5acd;
+}
+
+.perfil p{
+font-size:14px;
+line-height:1.6;
+color:#2c7a66;
+}
